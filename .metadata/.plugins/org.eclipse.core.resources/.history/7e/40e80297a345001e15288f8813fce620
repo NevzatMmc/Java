@@ -1,0 +1,11 @@
+package java01;
+
+public class Car {
+	int tekerlekSayisi;
+	int model;
+	
+	public Car(int tekerlekSayisi, int model) {
+		this.tekerlekSayisi = tekerlekSayisi;
+		this.model = model;
+	}
+}

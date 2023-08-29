@@ -1,0 +1,13 @@
+package java01;
+
+
+public class java011 {
+
+	public static void main(String[] args) {
+		System.out.println("furkan");
+		Car c1 = new Car(4, 2012);
+		
+		System.out.println(c1.model);
+	}
+
+}

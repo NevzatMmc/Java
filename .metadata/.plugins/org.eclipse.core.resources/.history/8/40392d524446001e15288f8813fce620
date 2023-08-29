@@ -1,0 +1,31 @@
+package java01;
+
+public class FootballPlayer {
+	public int no;
+	public String name;
+	public boolean inPlay;
+	public int minutes;
+	public int numberOfGoals;
+	
+	public void minutesToPlay(int i) {
+		minutes += minutes;
+		System.out.println("oynalıan dakika " + minutes);
+		
+	}
+
+	public void score() {
+		numberOfGoals += numberOfGoals;
+		System.out.println("Atılan gol " + numberOfGoals);
+		
+	}
+	
+}
+  //public void(int minutesToPlay) {
+  //minutes += minutes;
+  //System.err.println("Dakika " + minutes);
+//}
+    //public void score() {
+	//numberOfGoals += numberOfGoals;
+	//System.out.println("Skor " + score());
+	
+//}

@@ -1,0 +1,22 @@
+package java01;
+
+public class FootbalPlayerTest {
+
+	public static void main(String[] args) {
+		FootballPlayer alex = new FootballPlayer();
+		alex.no = 10;
+		alex.name = "Alex De Souza";
+		alex.inPlay = true;
+		alex.minutes = 0;
+		alex.numberOfGoals = 0;
+		
+		
+		alex.minutesToPlay(90);
+		alex.score();
+		alex.score();
+		
+		
+
+	}
+
+}
