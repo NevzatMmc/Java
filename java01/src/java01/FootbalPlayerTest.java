@@ -13,7 +13,7 @@ public class FootbalPlayerTest {
 		
 		alex.play(90);
 		alex.score();
-		alex.score();
+		
 		
 		System.out.println("number of goals alex scored " + alex.numberOfGoals);
 		System.out.println("Alex played Totaly " + alex.minutes + " minutes so far.");

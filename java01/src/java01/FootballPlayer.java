@@ -11,6 +11,6 @@ public class FootballPlayer {
     	minutes = minutes + minutesToPlay;
     }
 	void score() {
-		numberOfGoals++;
+		numberOfGoals = numberOfGoals + 1;
 	}
 }
